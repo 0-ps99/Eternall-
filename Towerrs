@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 local avoid = {"ToRoMW","ToTHT","ToBP","ToCaV","ToRT","ToPB","ToHR","ToWWW","ToEMP","TT","ToBT","ToC","ToCA","ToDC","ToDT","ToEH","ToFaCT","ToHA","ToIB","ToIF","ToMB","ToPZ","ToRER","ToTL","ToUH","ToAAA","ToAE","ToBK","ToEI","ToFM","ToHH","ToSM","ToSO","ToTB","ToTDA","ToWF","ToAR","ToFN","ToI","ToIM","ToMM","ToNS","ToUA","ToAM","ToCP","ToCR","ToDIE","ToER","ToGF"}
 for i,v in pairs(game.Workspace.Towers:GetChildren()) do
     if not table.find(avoid,v.Name) then
